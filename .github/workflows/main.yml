@@ -1,0 +1,10 @@
+name: Example Workflow
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: venkataragavan.candhy@straive.com
+        run: echo "Hello, world!"
